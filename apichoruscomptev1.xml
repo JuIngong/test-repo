@@ -1,0 +1,35 @@
+<application xmlns="http://wadl.dev.java.net/2009/02"  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<resources base="https://chorus-pro.gouv.fr/service/utilisateurs/monCompte">
+		<resource path="supprimer/utilisateur/rattach/structure">
+			<method id="id-SupprimerUtilisateurRattacheStructure" name="POST">
+				<request>
+					<representation mediaType="application/json"/>
+				</request>
+				<response status="200">
+					<representation mediaType="application/json" />
+				</response>
+				<response status="400">
+					<representation mediaType="application/json" />
+				</response>
+				<response status="401">
+					<representation mediaType="application/json" />
+				</response>
+				<response status="404">
+					<representation mediaType="application/json" />
+				</response>
+				<response status="413">
+					<representation mediaType="application/json" />
+				</response>
+				<response status="500">
+					<representation mediaType="application/json" />
+				</response>
+				<response status="503">
+					<representation mediaType="application/json" />
+				</response>
+				<response status="504">
+					<representation mediaType="application/json" />
+				</response>
+			</method>
+		</resource>
+	</resources>
+</application>
